@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/https://creativetravelist.github.io/interactive-card-menu-animations/static/css/main.86aad2cf.css",
-    "main.js": "/https://creativetravelist.github.io/interactive-card-menu-animations/static/js/main.d9cb7fa6.js",
-    "static/js/453.77aa8a85.chunk.js": "/https://creativetravelist.github.io/interactive-card-menu-animations/static/js/453.77aa8a85.chunk.js",
-    "static/media/flower_2.svg": "/https://creativetravelist.github.io/interactive-card-menu-animations/static/media/flower_2.f27787a08e641a1bc18c97b8c0f1e2fc.svg",
-    "static/media/flower_1.svg": "/https://creativetravelist.github.io/interactive-card-menu-animations/static/media/flower_1.eb6b1952fe939ce30c25c42b12ffbe76.svg",
-    "static/media/flower_4.svg": "/https://creativetravelist.github.io/interactive-card-menu-animations/static/media/flower_4.45ff9960da3609ce628938af3e52a749.svg",
-    "static/media/flower_3.svg": "/https://creativetravelist.github.io/interactive-card-menu-animations/static/media/flower_3.1e089a9bc8efaefb4bdbdea6d93f3571.svg",
-    "index.html": "/https://creativetravelist.github.io/interactive-card-menu-animations/index.html",
-    "main.86aad2cf.css.map": "/https://creativetravelist.github.io/interactive-card-menu-animations/static/css/main.86aad2cf.css.map",
-    "main.d9cb7fa6.js.map": "/https://creativetravelist.github.io/interactive-card-menu-animations/static/js/main.d9cb7fa6.js.map",
-    "453.77aa8a85.chunk.js.map": "/https://creativetravelist.github.io/interactive-card-menu-animations/static/js/453.77aa8a85.chunk.js.map"
+    "main.css": "/interactive-card-menu-animations/static/css/main.86aad2cf.css",
+    "main.js": "/interactive-card-menu-animations/static/js/main.492290af.js",
+    "static/js/453.77aa8a85.chunk.js": "/interactive-card-menu-animations/static/js/453.77aa8a85.chunk.js",
+    "static/media/flower_2.svg": "/interactive-card-menu-animations/static/media/flower_2.f27787a08e641a1bc18c97b8c0f1e2fc.svg",
+    "static/media/flower_1.svg": "/interactive-card-menu-animations/static/media/flower_1.eb6b1952fe939ce30c25c42b12ffbe76.svg",
+    "static/media/flower_4.svg": "/interactive-card-menu-animations/static/media/flower_4.45ff9960da3609ce628938af3e52a749.svg",
+    "static/media/flower_3.svg": "/interactive-card-menu-animations/static/media/flower_3.1e089a9bc8efaefb4bdbdea6d93f3571.svg",
+    "index.html": "/interactive-card-menu-animations/index.html",
+    "main.86aad2cf.css.map": "/interactive-card-menu-animations/static/css/main.86aad2cf.css.map",
+    "main.492290af.js.map": "/interactive-card-menu-animations/static/js/main.492290af.js.map",
+    "453.77aa8a85.chunk.js.map": "/interactive-card-menu-animations/static/js/453.77aa8a85.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86aad2cf.css",
-    "static/js/main.d9cb7fa6.js"
+    "static/js/main.492290af.js"
   ]
 }
