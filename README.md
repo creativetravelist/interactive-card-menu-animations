@@ -6,6 +6,10 @@ A React application showcasing an interactive card menu with smooth, multi-stage
 
 **[🚀 Live Demo](https://creativetravelist.github.io/interactive-card-menu-animations/)**
 
+
+https://github.com/user-attachments/assets/617a14f0-8009-4050-9dc0-bfce8a4195b8
+
+
 ## ✨ Features
 
 - 🌸 **Floral-Themed Design**  
