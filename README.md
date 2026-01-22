@@ -1,102 +1,116 @@
 # Interactive Card Menu Animations
 
-一個展示互動式卡片選單動畫效果的 React 應用程式，具有流暢的動畫過渡效果和優雅的用戶界面。
+A React application showcasing an interactive card menu with smooth, multi-stage animations and an elegant user interface.
 
 ## 🌐 Demo
 
 **[🚀 Live Demo](https://creativetravelist.github.io/interactive-card-menu-animations/)**
 
-## ✨ 功能特點
+## ✨ Features
 
-- 🌸 **花卉主題設計** - 四張精美的花卉圖標卡片，分別代表純潔、開始、幸運和獨特
-- 🎯 **互動式卡片選擇** - 點擊卡片觸發豐富的動畫效果
-- 🎨 **流暢動畫** - 精心設計的多階段動畫序列
-- 📱 **響應式設計** - 適配不同螢幕尺寸
-- 🎭 **下拉選單** - 選擇卡片後展現相關選項
+- 🌸 **Floral-Themed Design**  
+  Four beautifully designed floral icon cards representing *Purity*, *Beginnings*, *Luck*, and *Uniqueness*.
 
-## 🎬 動畫流程
+- 🎯 **Interactive Card Selection**  
+  Clicking a card triggers a rich, immersive animation sequence.
 
-1. **卡片選擇階段**
+- 🎨 **Smooth Animations**  
+  Carefully crafted multi-phase animation transitions for a polished experience.
 
-   - 點擊卡片後，該卡片會被選中並高亮
-   - 其他卡片逐漸淡出 (透明度變為 0)
-   - 選中的卡片移動到螢幕中央
+- 📱 **Responsive Layout**  
+  Optimized for different screen sizes and devices.
 
-2. **場景切換階段**
+- 🎭 **Dropdown Menu Interaction**  
+  Contextual options are revealed through animated dropdown menus after card selection.
 
-   - 卡片容器淡出並隱藏
-   - 選中卡片的詳細視圖顯示
+## 🎬 Animation Flow
 
-3. **選單展開階段**
+1. **Card Selection Phase**
+   - The selected card is highlighted
+   - Other cards gradually fade out (opacity → 0)
+   - The selected card moves to the center of the screen
 
-   - 下拉選單以縮放動畫展開
-   - 顯示相關的選項列表
+2. **Scene Transition Phase**
+   - The card container fades out and is hidden
+   - A detailed view of the selected card appears
 
-4. **選項選擇階段**
-   - 選擇選項後觸發收縮動畫
-   - 文字框架以動畫效果收合
+3. **Menu Expansion Phase**
+   - The dropdown menu expands with a scale animation
+   - Related options are displayed
 
-## 🚀 快速開始
+4. **Option Selection Phase**
+   - Selecting an option triggers a collapse animation
+   - The text container closes with animated transitions
 
-### 安裝依賴
+## 🚀 Getting Started
+
+### Install Dependencies
 
 ```bash
 npm install
-# 或
+# or
 yarn install
 ```
 
-### 啟動開發服務器
+### Start the Development Server
 
 ```bash
 npm start
-# 或
+# or
 yarn start
 ```
 
-應用程式將在開發模式下運行，在瀏覽器中打開 [http://localhost:3000](http://localhost:3000) 查看效果。
+The app will run in development mode.
+Open http://localhost:3000
+ in your browser to view it.
 
-### 建置生產版本
+
+### Build for Production
 
 ```bash
 npm run build
-# 或
+# or
 yarn build
 ```
 
-## 📁 專案結構
+### Project Structure
 
 ```
 src/
-├── App.js              # 主應用程式組件
-├── App.css             # 主樣式表
-├── index.js            # 應用程式入口點
-├── assets/             # 靜態資源
+├── App.js              # Main application component
+├── App.css             # Global styles
+├── index.js            # Application entry point
+├── assets/             # Static assets
 ├── configs/
-│   └── index.js        # 卡片和下拉選單配置
+│   └── index.js        # Card and dropdown menu configuration
 └── utils/
-    └── getOffset.js    # 計算元素偏移量的工具函數
+    └── getOffset.js    # Utility for calculating element offsets
+
 ```
 
-## 🛠️ 技術實現
+## 🛠️ Implementation Details
 
-### 動畫時序控制
+### Animation Timing Control
 
-使用 `setTimeout` 精確控制動畫序列：
+Animation sequences are precisely orchestrated using `setTimeout` to ensure smooth transitions between stages:
 
-- 0.8s: 卡片移動到中心
-- 4.5s: 卡片容器開始淡出
-- 5.5s: 切換到詳細視圖
-- 7.2s: 展開下拉選單
+- **0.8s** – The selected card moves to the center of the screen  
+- **4.5s** – The card container begins to fade out  
+- **5.5s** – The view transitions to the selected card’s detailed layout  
+- **7.2s** – The dropdown menu expands and becomes visible  
 
-### 位置計算
+### Position Calculation
 
-`getOffset.js` 工具函數計算元素移動到螢幕中心所需的偏移量。
+The `getOffset.js` utility function calculates the required offset to accurately move the selected card to the center of the viewport.
 
-### 調整動畫時序
+### Adjusting Animation Timing
 
-修改 `App.js` 中的 `setTimeout` 延遲時間來調整動畫節奏。
+You can fine-tune the animation flow by modifying the `setTimeout` delay values in `App.js`.
 
-### 自定義樣式
+### Custom Styling
 
-編輯 `App.css` 來修改視覺效果、顏色和動畫參數。
+Edit `App.css` to customize visual styles, color schemes, and animation parameters.
+
+
+
+ 
